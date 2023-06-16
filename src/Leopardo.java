@@ -1,13 +1,16 @@
 public class Leopardo extends Felinos{
-    int num_lunares;
-    boolean cazador_nocturno;
+    private int num_lunares;
+    private String presas_capturadas;
 
     //constructor con la extension de la clase Felinos
-    public Leopardo(String raza, String nombre, int edad, String habitat, int peso, int num_lunares, boolean cazador_nocturno) {
+    public Leopardo(String raza, String nombre, int edad, String habitat, int peso, int num_lunares, String presas_capturadas) {
         super(raza, nombre, edad, habitat, peso);
         this.num_lunares = num_lunares;
-        this.cazador_nocturno = cazador_nocturno;
+        this.presas_capturadas = presas_capturadas;
     }
+
+    //getters and setters
+
 
     public int getNum_lunares() {
         return num_lunares;
@@ -17,12 +20,12 @@ public class Leopardo extends Felinos{
         this.num_lunares = num_lunares;
     }
 
-    public boolean isCazador_nocturno() {
-        return cazador_nocturno;
+    public String getPresas_capturadas() {
+        return presas_capturadas;
     }
 
-    public void setCazador_nocturno(boolean cazador_nocturno) {
-        this.cazador_nocturno = cazador_nocturno;
+    public void setPresas_capturadas(String presas_capturadas) {
+        this.presas_capturadas = presas_capturadas;
     }
 
     //Metodo
