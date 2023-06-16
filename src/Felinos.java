@@ -1,5 +1,7 @@
 public class Felinos {
-    private int raza;
-    private int nombre_especie;
-
+    private String raza;
+    private String nombre;
+    private int edad;
+    private String habitat;
+    private int peso;
 }
