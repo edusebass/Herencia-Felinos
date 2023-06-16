@@ -1,9 +1,9 @@
 public class Leopardo extends Felinos{
     private int num_lunares;
-    private String presas_capturadas;
+    private int presas_capturadas;
 
     //constructor con la extension de la clase Felinos
-    public Leopardo(String raza, String nombre, int edad, String habitat, int peso, int num_lunares, String presas_capturadas) {
+    public Leopardo(String raza, String nombre, int edad, String habitat, int peso, int num_lunares, int presas_capturadas) {
         super(raza, nombre, edad, habitat, peso);
         this.num_lunares = num_lunares;
         this.presas_capturadas = presas_capturadas;
@@ -20,11 +20,11 @@ public class Leopardo extends Felinos{
         this.num_lunares = num_lunares;
     }
 
-    public String getPresas_capturadas() {
+    public int getPresas_capturadas() {
         return presas_capturadas;
     }
 
-    public void setPresas_capturadas(String presas_capturadas) {
+    public void setPresas_capturadas(int presas_capturadas) {
         this.presas_capturadas = presas_capturadas;
     }
 
