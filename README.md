@@ -42,6 +42,8 @@ El método imprimirleopardo() imprime la información específica del leopardo, 
 
 En resumen, la clase Leopardo extiende la clase Felinos, agregando atributos y comportamientos específicos del leopardo. Al heredar de la clase base, la clase Leopardo puede acceder a los atributos y métodos de la clase Felinos, lo que promueve la reutilización del código y la organización de la estructura de la jerarquía de clases.
 
+Y de la misma manera seria con las de mas clases hijas
+---
 # Resultado del programa
 El programa muestra un menú interactivo en el que el usuario puede seleccionar diferentes opciones relacionadas con distintos tipos de felinos: Leopardo, Gato, León y Tigre. Cada opción permite al usuario ingresar datos específicos para crear instancias de objetos de las respectivas clases.
 ![Muestra del codigo](imagenesreadme/1.png)
