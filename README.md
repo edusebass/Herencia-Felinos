@@ -20,4 +20,5 @@ Después de que se ingresen los datos, se llaman a los métodos imprimirleopardo
 ![img.png](imagenesreadme/123.png)
 
 El bucle continuará hasta que el usuario seleccione la opción "SALIR" (opción 5), momento en el cual el programa finalizará.
+
 ![img.png](imagenesreadme/1234.png)
