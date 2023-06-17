@@ -1,9 +1,15 @@
-## Deber Herencias
+## Deber Herencias POO
 
 ### Nombre: Eduardo Almachi
 
-# Herencia-Felinos
+- Este programa cuenta de dos partes :
+    - La superclase y sus clases hijas
+    - Y el main con el menu para setear los objetos
 
+# Herencia-Felinos y sus clases hijas
+
+
+# Resultado del programa
 El programa muestra un menú interactivo en el que el usuario puede seleccionar diferentes opciones relacionadas con distintos tipos de felinos: Leopardo, Gato, León y Tigre. Cada opción permite al usuario ingresar datos específicos para crear instancias de objetos de las respectivas clases.
 ![Muestra del codigo](imagenesreadme/1.png)
 
