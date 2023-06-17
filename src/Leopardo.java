@@ -33,4 +33,18 @@ public class Leopardo extends Felinos{
         System.out.println("EL leoardo tiene una gran facilidad de trepar");
     }
 
+    public void imprimirleopardo() {
+        System.out.println("=== Información del Leopardo ===");
+        System.out.println("Raza: " + getRaza());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Hábitat: " + getHabitat());
+        System.out.println("Peso: " + getPeso());
+        System.out.println("Número de Lunares: " + num_lunares);
+        System.out.println("Presas Capturadas: " + presas_capturadas);
+        trepar();
+        cazar();
+        rugir();
+    }
+
 }

@@ -31,4 +31,18 @@ public class Gato extends Felinos{
     public void maullar() {
         System.out.println("Este es el metodo maullar de gato");
     }
+
+    public void imprimirgato() {
+        System.out.println("=== Información del Gato ===");
+        System.out.println("Raza: " + getRaza());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Hábitat: " + getHabitat());
+        System.out.println("Peso: " + getPeso());
+        System.out.println("Es mascota?: " + mascota);
+        System.out.println("Nombre del dueño: " + nombre_dueño);
+        maullar();
+        cazar();
+        rugir();
+    }
 }

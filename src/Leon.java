@@ -31,4 +31,18 @@ public class Leon extends Felinos{
     public void rugir() {
         System.out.println("Rugir del metodo leon");
     }
+
+    public void imprimirleon() {
+        System.out.println("=== Información del Leon ===");
+        System.out.println("Raza: " + getRaza());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Hábitat: " + getHabitat());
+        System.out.println("Peso: " + getPeso());
+        System.out.println("Medida de melena: " + medida_melena);
+        System.out.println("Intesidad de rugido: " + rugido);
+        rugir();
+        cazar();
+        rugir();
+    }
 }
