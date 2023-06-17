@@ -96,6 +96,13 @@ public class Main {
                     System.out.println("Ingresa el peso:");
                     tigre.setPeso(sc.nextInt());
                     sc.nextLine();
+                    System.out.println("Ingrese el numero de rayas del tigre: ");
+                    tigre.setNum_rayas(sc.nextInt());
+                    sc.nextLine();
+                    System.out.println("Ingrese el salto: ");
+                    tigre.setSalto(sc.nextLine());
+                    tigre.imprimirtigre();
+                    sc.nextLine();
 
                     break;
                 }

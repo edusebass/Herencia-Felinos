@@ -32,4 +32,18 @@ public class Tigre extends Felinos{
     public void trepar_Arbol() {
         System.out.println("Metodo trapar arboles de la clase tigre");
     }
+
+    public void imprimirtigre() {
+        System.out.println("=== Información del Tigre ===");
+        System.out.println("Raza: " + getRaza());
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("Hábitat: " + getHabitat());
+        System.out.println("Peso: " + getPeso());
+        System.out.println("Numero de rayas: " + num_rayas);
+        System.out.println("Salto: " + salto);
+        trepar_Arbol();
+        cazar();
+        rugir();
+    }
 }
