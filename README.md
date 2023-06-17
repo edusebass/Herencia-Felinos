@@ -7,6 +7,7 @@
     - Y el main con el menu para setear los objetos
 
 # Herencia-Felinos y sus clases hijas
+## Superclase Felinos
 En este código, la clase Felinos representa una entidad genérica de felinos con los atributos comunes como la raza, el nombre, la edad, el hábitat y el peso.
 
 ![img.png](imagenesreadme/14.png)
@@ -23,6 +24,23 @@ Además, la clase Felinos contiene los métodos rugir() y cazar(), que son compo
 ![img.png](imagenesreadme/17.png)
 
 En resumen, la clase Felinos sirve como una base genérica para representar a diferentes tipos de felinos y proporciona los métodos para acceder y modificar sus atributos, así como para realizar acciones específicas de los felinos, como rugir y cazar.
+## Clases hijas (leon, tigre, gato, leopardo)
+La clase Leopardo hereda de la clase Felinos utilizando la palabra clave extends. Al hacerlo, la clase Leopardo adquiere todos los atributos y métodos de la clase Felinos.
+![img.png](imagenesreadme/18.png)
+
+El constructor de la clase Leopardo utiliza la palabra clave super para llamar al constructor de la clase Felinos y pasar los valores correspondientes para inicializar los atributos heredados de la clase base.
+![img.png](imagenesreadme/19.png)
+
+La clase Leopardo tiene dos atributos adicionales: num_lunares y presas_capturadas. Estos atributos se pueden acceder y modificar mediante los métodos getter y setter correspondientes.
+![img.png](imagenesreadme/20.png)
+
+Además, la clase Leopardo define un método adicional llamado trepar(), que imprime un mensaje indicando que el leopardo tiene una gran facilidad para trepar.
+![img.png](imagenesreadme/21.png)
+
+El método imprimirleopardo() imprime la información específica del leopardo, así como la información heredada de la clase Felinos. Luego, invoca los métodos trepar(), cazar() y rugir() para mostrar los comportamientos del leopardo heredados de la clase base.
+![img.png](imagenesreadme/22.png)
+
+En resumen, la clase Leopardo extiende la clase Felinos, agregando atributos y comportamientos específicos del leopardo. Al heredar de la clase base, la clase Leopardo puede acceder a los atributos y métodos de la clase Felinos, lo que promueve la reutilización del código y la organización de la estructura de la jerarquía de clases.
 
 # Resultado del programa
 El programa muestra un menú interactivo en el que el usuario puede seleccionar diferentes opciones relacionadas con distintos tipos de felinos: Leopardo, Gato, León y Tigre. Cada opción permite al usuario ingresar datos específicos para crear instancias de objetos de las respectivas clases.
