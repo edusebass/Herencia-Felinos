@@ -14,6 +14,7 @@ El programa utiliza un bucle do-while para mantener el menú en pantalla hasta q
 Dependiendo de la opción seleccionada, se ejecuta un bloque de código correspondiente a cada tipo de felino. Para cada tipo de felino, se solicitan datos específicos al usuario, como la raza, el nombre, la edad, el hábitat, el peso y otros atributos particulares de cada especie.
 ![img_1.png](imagenesreadme/img_1.png)
 ![img.png](imagenesreadme/12.png)
+
 Después de que se ingresen los datos, se llaman a los métodos imprimirleopardo(), imprimirgato(), imprimirleon(), imprimirtigre() respectivamente para imprimir los datos del felino correspondiente en la consola.
 ![img.png](imagenesreadme/6.png)
 ![img.png](imagenesreadme/123.png)
