@@ -2,6 +2,10 @@
 
 ### Nombre: Eduardo Almachi
 
+## Diagrama UML
+
+![](imagenesreadme/UML.png)
+
 - Este programa cuenta de dos partes :
     - La superclase y sus clases hijas
     - Y el main con el menu para setear los objetos
