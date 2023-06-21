@@ -7,6 +7,7 @@ public class Main {
         Leon leon = new Leon("", "", 0, "", 0, 0, "");
         Gato gato = new Gato("", "", 0, "", 0, null, "");
         Tigre tigre = new Tigre("", "", 0, "", 0, 0, "");
+        Puma puma = new Puma(",","",0, "", 0, 0, "");
 
         int op; // variable uso del men
 
@@ -103,11 +104,32 @@ public class Main {
                     tigre.setSalto(sc.nextLine());
                     tigre.imprimirtigre();
                     sc.nextLine();
-
+                    break;
+                }
+                case 5: {
+                    System.out.println("Ingresa la raza: ");
+                    puma.setRaza(sc.nextLine());
+                    System.out.println("Ingresa el nombre: ");
+                    puma.setNombre(sc.nextLine());
+                    System.out.println("Ingresa la edad: ");
+                    puma.setEdad(sc.nextInt());
+                    sc.nextLine();
+                    System.out.println("Ingresa el hábitat: ");
+                    puma.setHabitat(sc.nextLine());
+                    System.out.println("Ingresa el peso:");
+                    puma.setPeso(sc.nextInt());
+                    sc.nextLine();
+                    System.out.println("Ingresa la velocidad maxima: ");
+                    puma.setVelocidadMaxima(sc.nextInt());
+                    sc.nextLine();
+                    System.out.println("Ingresa la ubicacion: ");
+                    puma.setUbicacion(sc.nextLine());
+                    puma.velocidadPuma();
+                    sc.nextLine();
                     break;
                 }
             }
-        } while (op != 5);
+        } while (op != 6);
     }
 
     private static void menu() {
@@ -116,6 +138,7 @@ public class Main {
         System.out.println("2. Gato");
         System.out.println("3. Leon");
         System.out.println("4. Tigre");
-        System.out.println("5. SALIR");
+        System.out.println("5. Puma");
+        System.out.println("6. SALIR");
     }
 }

@@ -28,7 +28,9 @@ Además, la clase Felinos contiene los métodos rugir() y cazar(), que son compo
 ![img.png](imagenesreadme/17.png)
 
 En resumen, la clase Felinos sirve como una base genérica para representar a diferentes tipos de felinos y proporciona los métodos para acceder y modificar sus atributos, así como para realizar acciones específicas de los felinos, como rugir y cazar.
-## Clases hijas (leon, tigre, gato, leopardo)
+## Clases hijas (leon, tigre, gato, leopardo, puma)
+Un ejemplo de la clase es esta: 
+
 La clase Leopardo hereda de la clase Felinos utilizando la palabra clave extends. Al hacerlo, la clase Leopardo adquiere todos los atributos y métodos de la clase Felinos.
 ![img.png](imagenesreadme/18.png)
 
